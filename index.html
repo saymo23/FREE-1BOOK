@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Molengo&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header >
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo">
+    </div><!-- /.logo -->
+  </header>
+  <section class="col1">
+    <div class="welcome">
+      <h1>
+        ¡Bienvenidos!
+      </h1>
+      <h2>
+        Inicia sesión en tu cuenta.
+      </h2>
+    </div><!-- /.welcome -->
+    <form method="post" action="https://member.1book.com/auth/login ">
+      <p>
+      <input type="text" name="usuario" id="usuario" maxlength="50"
+      placeholder="Usuario" class="inpnav">
+      </p>
+      <p>
+      <input type="password" name="password" value=""
+      placeholder="Contraseña" class="inpnav">
+      </p>
+      <input type="submit" name="commit" value="Iniciar sesión" class="btnnav">
+    </form>
+    <a href="/recuperar-password" class='recuperar' target="_blank" rel="noopener noreferrer">
+      Olvide mi contraseña
+    </a>
+    <div class="registro">
+      <p>¿No estás registrado?</p> <br>
+      Solicita tu registro enviando un email<br>
+      <a href="mailto:registro@naotravelco.com">registro@naotravelco.com</a>
+    </div><!-- /.registro -->
+  </section><!-- /.col1 -->
+  <section class="col2">
+    <img src="assets/login-hero.jpg" alt="Login" />
+  </section><!-- /.col2 -->
+
+  <footer>
+    Copyright © 2021 Naotravelco.
+  </footer>
+</body>
+</html>
